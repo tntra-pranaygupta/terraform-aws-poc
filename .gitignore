@@ -1,0 +1,18 @@
+# Terraform local files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+ 
+# Variable files (may contain secrets)
+*.tfvars
+!*.tfvars.example
+ 
+# OS files
+.DS_Store
+Thumbs.db
+ 
+# Editor files
+.vscode/
+.idea/
+*.swp
